@@ -5,10 +5,12 @@ This app automatically accepts your CS:GO competitive matches and sends you an S
 ## Requirements
 You need to have CSGO in windowed mode and running it in any 16:9 or 16:10 resolution when searching for a match. However, for convenience, it is possible to make a bind to toggle between 16:9/16:10 resolutions and 4:3 resolutions, and between windowed and full screen mode. Check this posts if needed:
 
-Command explanation: (Shrek vnature's comment)
-[Command explanation (Shrek vnature's comment)](https://steamcommunity.com/app/730/discussions/0/412447613579131479/)
+`mat_setvideomode` command is used to change these settings. It is used like this: `mat_setvideomode <width> <height> <0-1>`\
+0 = fullscreen\
+1 = windowed
 
-Bind/toggle for the command:
+Source:\
+[Command explanation (Shrek vnature's comment)](https://steamcommunity.com/app/730/discussions/0/412447613579131479/)\
 [Bind/toggle for the command](https://www.reddit.com/r/CounterStrikeBinds/comments/3b7fum/request_bind_to_change_screen_resolution/)
 
 ## Development and Extra Info
