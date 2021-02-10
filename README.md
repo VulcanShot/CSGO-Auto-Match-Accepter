@@ -14,4 +14,4 @@ Source:\
 [Bind/toggle for the command](https://www.reddit.com/r/CounterStrikeBinds/comments/3b7fum/request_bind_to_change_screen_resolution/)
 
 ## Development and Extra Info
-The app itself is made with C# winforms. It basically analyzes the color of some specific pixels and compares them to the color of the "Accept" button (Text is not involved, so it works in any language). For notifying the user, I'm using Twilio, which is a service to send custom SMS on demand. As for now I'm using a Twilio Trial account, so the number of messages are limited. Depending on how does the development goes I'll consider upgrading my account for a subscription one soon!
+The program itself is made with C# winforms. It basically analyzes the color of some specific pixels and compares them to the color of the "Accept" button (Text is not involved, so it works in any language). For notifying the user, I'm using Twilio, which is a service to send custom SMS on demand. As for now I'm using a Twilio Trial account, so the number of messages are limited. Depending on how does the development goes I'll consider upgrading my account for a subscription one soon!
