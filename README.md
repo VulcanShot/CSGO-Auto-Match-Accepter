@@ -1,9 +1,9 @@
 # CSGO-Auto-Match-Accepter
 ## Description
-This app automatically accepts your CS:GO competitive matches and sends you an SMS to let you know (it's not an auto clicker).
+This is a program that detects and automatically accepts your CS:GO competitive matches and sends you an SMS to let you know. It is completley VAC risk free since it does not interact with the CS:GO files directly.
 
 ## Requirements
-You need to have CSGO in windowed mode and running it in any 16:9 or 16:10 resolution when searching for a match. However, for convenience, it is possible to make a bind to toggle between 16:9/16:10 resolutions and 4:3 resolutions, and between windowed and full screen mode. Check this posts if needed:
+You need to have the game in windowed mode and running it in any 16:9 or 16:10 resolution when searching for a match. However, for convenience, it is possible to make a bind to toggle between 16:9/16:10 resolutions and 4:3 resolutions, and between windowed and full screen mode. Check this posts if needed:
 
 `mat_setvideomode` command is used to change these settings. It is used like this: `mat_setvideomode <width> <height> <0-1>`\
 0 = fullscreen\
